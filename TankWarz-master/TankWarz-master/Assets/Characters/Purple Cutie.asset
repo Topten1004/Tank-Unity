@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816c259a93bb7a146b1dce1da7f48bb9, type: 3}
+  m_Name: Purple Cutie
+  m_EditorClassIdentifier: 
+  _body: {fileID: 21300000, guid: 585885b212c7e2d44b8f42b8cd27c780, type: 3}
+  _head: {fileID: 21300000, guid: 747ca9760872bab4680a58e8f734e92a, type: 3}
+  _name: Purple Cutie
+  _ap: 5
+  _as: 60
+  _shild: 20
+  _cd: 15
+  _ISSELECTED: 0
+  _animator: {fileID: 0}

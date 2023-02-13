@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 0c2de04ae5761f24c94296a29f9faf74
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Base_Bone
+    100002: Gun_Bone
+    100004: LeftWheel10_bone
+    100006: LeftWheel11_bone
+    100008: LeftWheel12_bone
+    100010: LeftWheel13_bone
+    100012: LeftWheel1_bone
+    100014: LeftWheel2_bone
+    100016: LeftWheel3_bone
+    100018: LeftWheel4_bone
+    100020: LeftWheel5_bone
+    100022: LeftWheel6_bone
+    100024: LeftWheel7_bone
+    100026: LeftWheel8_bone
+    100028: LeftWheel9_bone
+    100030: MC-1_Armature
+    100032: MC-1_Base
+    100034: MC-1_LeftTrack
+    100036: MC-1_RightTrack
+    100038: //RootNode
+    100040: RightWheel10_Bone
+    100042: RightWheel11_Bone
+    100044: RightWheel12_Bone
+    100046: RightWheel13_Bone
+    100048: RightWheel1_Bone
+    100050: RightWheel2_Bone
+    100052: RightWheel3_Bone
+    100054: RightWheel4_Bone
+    100056: RightWheel5_Bone
+    100058: RightWheel6_Bone
+    100060: RightWheel7_Bone
+    100062: RightWheel8_Bone
+    100064: RightWheel9_Bone
+    100066: Tower_Bone
+    400000: Base_Bone
+    400002: Gun_Bone
+    400004: LeftWheel10_bone
+    400006: LeftWheel11_bone
+    400008: LeftWheel12_bone
+    400010: LeftWheel13_bone
+    400012: LeftWheel1_bone
+    400014: LeftWheel2_bone
+    400016: LeftWheel3_bone
+    400018: LeftWheel4_bone
+    400020: LeftWheel5_bone
+    400022: LeftWheel6_bone
+    400024: LeftWheel7_bone
+    400026: LeftWheel8_bone
+    400028: LeftWheel9_bone
+    400030: MC-1_Armature
+    400032: MC-1_Base
+    400034: MC-1_LeftTrack
+    400036: MC-1_RightTrack
+    400038: //RootNode
+    400040: RightWheel10_Bone
+    400042: RightWheel11_Bone
+    400044: RightWheel12_Bone
+    400046: RightWheel13_Bone
+    400048: RightWheel1_Bone
+    400050: RightWheel2_Bone
+    400052: RightWheel3_Bone
+    400054: RightWheel4_Bone
+    400056: RightWheel5_Bone
+    400058: RightWheel6_Bone
+    400060: RightWheel7_Bone
+    400062: RightWheel8_Bone
+    400064: RightWheel9_Bone
+    400066: Tower_Bone
+    2300000: MC-1_LeftTrack
+    2300002: MC-1_RightTrack
+    3300000: MC-1_LeftTrack
+    3300002: MC-1_RightTrack
+    4300000: MC-1_Base
+    4300002: MC-1_LeftTrack
+    4300004: MC-1_RightTrack
+    9500000: //RootNode
+    13700000: MC-1_Base
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

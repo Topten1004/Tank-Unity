@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="Fire_Shots">
+        <file id="0" name="Fire_Shots/Flame_A.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="Fire_Shots/Flame_B.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="Fire_Shots/Flame_C.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="Fire_Shots/Flame_D.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="Fire_Shots/Flame_E.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="Fire_Shots/Flame_F.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="Fire_Shots/Flame_G.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="Fire_Shots/Flash_A_01.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="Fire_Shots/Flash_A_02.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="Fire_Shots/Flash_A_03.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="Fire_Shots/Flash_A_04.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="Fire_Shots/Flash_B_01.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="Fire_Shots/Flash_B_02.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="Fire_Shots/Flash_B_03.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="14" name="Fire_Shots/Flash_B_04.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="15" name="Fire_Shots/Flame_H.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="16" name="Fire_Shots/Flash_A_05.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="17" name="Fire_Shots/Flash_B_05.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="Effects">
+        <file id="0" name="Effects/Exhaust_Fire.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="Effects/Explosion_A.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="Effects/Explosion_B.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="Effects/Explosion_C.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="Effects/Explosion_D.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="Effects/Explosion_E.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="Effects/Explosion_F.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="Effects/Explosion_G.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="Effects/Smoke_A.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="Effects/Smoke_B.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="Effects/Smoke_C.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="Effects/Explosion_H.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="Effects">
+        <animation id="0" name="Explosion" length="900" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="800" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Explosion_A">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" angle="0"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="1" file="3" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="1" file="4" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="1" file="5" x="-4" angle="0"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="1" file="6" angle="0"/>
+                </key>
+                <key id="6" time="600" curve_type="instant">
+                    <object folder="1" file="7" angle="0"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="1" file="11" angle="0" scale_y="1"/>
+                </key>
+                <key id="8" time="800" spin="0">
+                    <object folder="1" file="11" angle="0" scale_y="1" a="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Exhaust_01" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+                <key id="9" time="900">
+                    <object_ref id="0" timeline="0" key="9" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Smoke_A">
+                <key id="0" spin="0">
+                    <object folder="1" file="8" angle="0" scale_x="0.8" scale_y="0.6"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object folder="1" file="9" y="-20" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="1" file="10" y="-30" angle="0" scale_x="1.4"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="1" file="0" y="-34" angle="0" scale_x="1.4" scale_y="1.1"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="1" file="0" y="-30" angle="0"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="1" file="0" y="-30" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_y="1.24"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_x="0.8" scale_y="1.1"/>
+                </key>
+                <key id="8" time="800" spin="0">
+                    <object folder="1" file="0" y="-50" angle="0" scale_y="1.1"/>
+                </key>
+                <key id="9" time="900" spin="0">
+                    <object folder="1" file="0" y="-77" angle="0" scale_y="0.8" a="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Exhaust_02" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+                <key id="9" time="900">
+                    <object_ref id="0" timeline="0" key="9" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Smoke_A">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_x="0.8" scale_y="1.24"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_x="0.6" scale_y="1.1"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="1" file="0" y="-30" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="1" file="0" y="-34" angle="0" scale_x="0.6" scale_y="1.1"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="1" file="0" y="-30" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="1" file="0" y="-30" angle="0" scale_x="0.6"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_x="0.8" scale_y="1.24"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_x="0.6" scale_y="1.1"/>
+                </key>
+                <key id="8" time="800" spin="0">
+                    <object folder="1" file="0" y="-30" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="9" time="900" spin="0">
+                    <object folder="1" file="0" y="-36" angle="0" scale_x="0.6" scale_y="1.1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="Fire_Shots">
+        <animation id="0" name="Flame" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="501" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+                <key id="8" time="800" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="8" z_index="0"/>
+                </key>
+                <key id="9" time="900" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="9" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Flame_A">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="-97" angle="0"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object folder="0" file="1" y="-73" angle="0" scale_x="1.1"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="2" angle="0" scale_x="1.1"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="3" angle="0" scale_x="0.9"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+                <key id="5" time="501" spin="0">
+                    <object folder="0" file="5" angle="0" scale_x="0.9"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="0" file="6" angle="0"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="0" file="15" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="8" time="800" spin="0">
+                    <object folder="0" file="2" y="50" angle="0" scale_x="1.2"/>
+                </key>
+                <key id="9" time="900" spin="0">
+                    <object folder="0" file="0" y="70" angle="0" scale_x="1.3" scale_y="0.7"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Shot_A" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Flash_A_01">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="8" y="10" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="9" y="16" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="9" y="20" angle="0" scale_x="1.2" a="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Shot_B" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Flash_A_01">
+                <key id="0" spin="0">
+                    <object folder="0" file="11" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="12" y="10" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="13" y="16" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="13" y="20" angle="0" scale_x="1.2" a="0.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Impact_A" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Flash_A_03">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" y="-5" angle="0" scale_x="0.7" scale_y="0.8"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object folder="0" file="10" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="10" angle="0" scale_x="1.1" a="0.5"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="9" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Flash_A_04">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" angle="0" a="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="16" y="30" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="16" y="50" angle="0" scale_y="1.2"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="16" y="70" angle="0" scale_x="1.2" scale_y="1.2"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Impact_B" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Flash_A_03">
+                <key id="0" spin="0">
+                    <object folder="0" file="14" y="-5" angle="0" scale_x="0.7" scale_y="0.8"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object folder="0" file="14" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="14" angle="0" scale_x="1.1" a="0.5"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="9" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Flash_A_04">
+                <key id="0" spin="0">
+                    <object folder="0" file="17" angle="0" a="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="17" y="30" angle="0" scale_x="0.8"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="17" y="50" angle="0" scale_y="1.2"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="17" y="70" angle="0" scale_x="1.2" scale_y="1.2"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
